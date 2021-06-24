@@ -1,0 +1,177 @@
+
+#title{
+    background-color: #ff4c68;
+    padding: 3% 15%;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-link {
+    margin-right: 5px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+    display: block;
+    padding: .5rem 1rem;
+}
+.container-fluid{
+
+}
+
+
+
+
+
+
+
+.navbar-brand{
+font-size: 1.5rem;
+font-family: 'ubuntu',sans-serif;
+font-weight: bold;
+}
+
+h1{
+    
+    font-size: 3.5rem;
+    color: #fff;
+    margin-top: 10%;
+    line-height: 1.5;
+}
+.btn{
+ margin-top: 15%;
+
+}
+.btn-dark{
+    margin-right: 5px;
+}
+#middle-section{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z z-index: 1;
+}
+
+
+.title-img{
+    width: 25%;
+     /* border-radius: 40px; */
+     transform:rotate(25deg);
+     position: absolute;
+}
+@media (max-width: 990px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        margin-top: 5%;
+    }
+}
+#footer{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+#footer-icons{
+    padding: 7% 15%;
+    background-color: #fff;
+    text-align: center;
+    
+}
+.footer-heading{
+    font-size: 3.5 rem;
+
+}
+
+.footer-icon {
+    margin:30px 20px;
+    text-decoration: none;
+    color: #000;
+    
+
+}
+.footer-icon:hover{
+    background-color:grey;
+}
+
+
+.icon{
+color:#ef8172;
+    
+}
+.icon:hover{
+    color: #ff4c68;
+}
+h3{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding: 4%;
+    font-weight: bold;
+
+}
+.icon-box{
+    text-align: center;
+}
+#middle-section p{
+    color: grey;
+    line-height: 1.5;
+}
+#testimonials{
+    text-align: center;
+    background-color:#ef8172;
+
+}
+.puppy{
+    width:15%;
+    border-radius: 100%;
+    margin: 15px;
+    padding: 10px;
+    
+    
+}
+h2{
+    color: #fff;
+    font-size: 3rem;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+.logo{
+    width: 15%;
+    background-color:#ef8172;
+    margin:20px 20px 50px;
+}
+
+#testimonials p{
+    color: #fff;
+}
+#pricing{
+    padding-top:0;
+    padding-left: 100px ;
+    padding-right: 100px;
+    text-align: center;
+
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+.btn-block{
+    width: 100%;
+}
+.card-heading{
+    color:#000;
+    font-size: 2rem;
+}
+.card-heading-title{
+    font-size: 2.5rem;
+    color: black;
+
+}
+.copy{
+    color: grey;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
